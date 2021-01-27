@@ -11,9 +11,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatTextView;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.ArrayList;
 
-    private TextView mTextView;
+public class MainActivity extends AppCompatActivity {
+    private long count = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,9 +34,25 @@ public class MainActivity extends AppCompatActivity {
 //        linearLayout.addView(button);
         setContentView(R.layout.activity_main);
 
-        AppCompatButton myButton = findViewById(R.id.my_button);
-        myButton.setOnClickListener((view) -> {
-            Log.d("BUTTON", "My button was pressed");
+        AppCompatButton plusButton = findViewById(R.id.plus_button);
+        plusButton.setOnClickListener((view) -> {
+            count += 1;
+            AppCompatTextView numberText = findViewById(R.id.number_text);
+            numberText.setText("" + count);
         });
+
+        AppCompatButton minusButton = findViewById(R.id.minus_button);
+        minusButton.setOnClickListener((view) -> {
+            count -= 1;
+            AppCompatTextView numberText = findViewById(R.id.number_text);
+            numberText.setText("" + count);
+        });
+
+//        myButton.setOnClickListener((view) -> {
+//            AppCompatTextView messageTextView = findViewById(R.id.message);
+//            messageTextView.setText("Welcome to our app");
+//
+//        });
+
     }
 }
