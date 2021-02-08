@@ -1,2 +1,4 @@
+include ':CounterAPI'
+include ':counterphone'
 include ':app'
 rootProject.name = "BasicEvents"

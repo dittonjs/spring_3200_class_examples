@@ -12,7 +12,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/CounterAPI" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/counterphone" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
