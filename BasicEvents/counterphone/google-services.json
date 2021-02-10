@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "331345601856",
+    "firebase_url": "https://usu-counter-default-rtdb.firebaseio.com",
+    "project_id": "usu-counter",
+    "storage_bucket": "usu-counter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331345601856:android:60cb434664e183dbd586a5",
+        "android_client_info": {
+          "package_name": "com.usu.basicevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331345601856-4qk9radhkuiek1mgscvkk8rfk4ugia6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-ZW0SO6JYKxng03ZDNrscU2SNpeP7Kgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331345601856-4qk9radhkuiek1mgscvkk8rfk4ugia6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331345601856:android:bdcde120a7e08420d586a5",
+        "android_client_info": {
+          "package_name": "com.usu.josephditton.counterphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331345601856-4qk9radhkuiek1mgscvkk8rfk4ugia6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-ZW0SO6JYKxng03ZDNrscU2SNpeP7Kgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331345601856-4qk9radhkuiek1mgscvkk8rfk4ugia6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

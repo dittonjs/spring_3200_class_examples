@@ -6,7 +6,8 @@ import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.usu.basicevents.viewmodels.CountViewModel;
+import com.usu.josephditton.counterapi.viewmodels.CountViewModel;
+
 
 public class MainActivity extends AppCompatActivity {
 

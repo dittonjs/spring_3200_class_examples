@@ -30,7 +30,8 @@ public class CountViewModel extends ViewModel {
     }
 
     public void incrementCount() {
-       db.child("count").setValue(count.getValue() + 1);
+
+        db.child("count").setValue(count.getValue() + 1);
     };
 
     public void decrementCount() {
