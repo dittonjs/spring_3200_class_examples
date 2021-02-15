@@ -1,0 +1,3 @@
+include ':ContactsAPI'
+include ':app'
+rootProject.name = "USU-Contacts"

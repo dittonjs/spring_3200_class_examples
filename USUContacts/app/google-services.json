@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59424960582",
+    "project_id": "usu-contacts",
+    "storage_bucket": "usu-contacts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59424960582:android:5ec34e0517eb6709a25a47",
+        "android_client_info": {
+          "package_name": "com.usu.josephditton.usu_contacts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59424960582-nsul6u0jmb230n36l0bce3p5sra5jkns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWoVteLIE9155VG-aQlu1EztzntkuFu-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59424960582-nsul6u0jmb230n36l0bce3p5sra5jkns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
