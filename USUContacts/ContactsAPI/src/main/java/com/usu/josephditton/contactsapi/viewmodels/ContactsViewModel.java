@@ -60,17 +60,25 @@ public class ContactsViewModel extends ViewModel {
         db.child("/contacts").addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                contacts.add(snapshot.getValue(Contact.class));
+                Contact contact = snapshot.getValue(Contact.class);
+                contact.id = snapshot.getKey();
+                contacts.add(contact);
             }
 
             @Override
             public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                 Log.d("CHANGED", "A contact was changed");
+                Contact contact = snapshot.getValue(Contact.class);
+                contact.id = snapshot.getKey();
+                int index = contacts.indexOf(contact);
+                contacts.set(index, contact);
             }
 
             @Override
             public void onChildRemoved(@NonNull DataSnapshot snapshot) {
-                Log.d("REMOVED", "A contact was removed");
+                Contact contact = snapshot.getValue(Contact.class);
+                contact.id = snapshot.getKey();
+                contacts.remove(contact);
             }
 
             @Override
