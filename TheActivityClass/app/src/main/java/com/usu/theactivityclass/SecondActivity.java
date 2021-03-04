@@ -3,6 +3,7 @@ package com.usu.theactivityclass;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -12,10 +13,14 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Intent intent = getIntent();
-        String name = intent.getStringExtra("usersName");
         setContentView(R.layout.activity_second);
-        TextView textView = findViewById(R.id.textView);
-        textView.setText("Hello, " + name + ", welcome to the second activity");
+        EditText noteEditText = findViewById(R.id.note);
+        findViewById(R.id.save).setOnClickListener((view) -> {
+            String note = noteEditText.getText().toString();
+            Intent intent = new Intent();
+            intent.putExtra("note", note);
+            setResult(Activity.RESULT_OK, intent);
+            finish();
+        });
     }
 }
