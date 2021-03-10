@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/TestAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/API/TestAndroid.API.iml" filepath="$PROJECT_DIR$/.idea/modules/API/TestAndroid.API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PhoneStarter/TestAndroid.LoginSignupExample.iml" filepath="$PROJECT_DIR$/.idea/modules/PhoneStarter/TestAndroid.LoginSignupExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WatchStarter/TestAndroid.WatchStarter.iml" filepath="$PROJECT_DIR$/.idea/modules/WatchStarter/TestAndroid.WatchStarter.iml" />
+    </modules>
+  </component>
+</project>

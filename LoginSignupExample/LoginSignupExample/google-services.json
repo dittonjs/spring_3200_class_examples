@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "150865178791",
+    "firebase_url": "https://loginsignupexample-ada1a-default-rtdb.firebaseio.com",
+    "project_id": "loginsignupexample-ada1a",
+    "storage_bucket": "loginsignupexample-ada1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150865178791:android:13714bd510716f8cceab82",
+        "android_client_info": {
+          "package_name": "com.josephdittonusuphonewithlogin.phoneapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150865178791-4iel6qmkd83v4n1tsj215uini00a4135.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFFGfYZXHimx6rspxGDtglZfpbYkQ7MsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150865178791-4iel6qmkd83v4n1tsj215uini00a4135.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

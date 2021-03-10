@@ -1,0 +1,4 @@
+include ':WatchStarter'
+include ':API'
+include ':LoginSignupExample'
+rootProject.name = "TestAndroid"
