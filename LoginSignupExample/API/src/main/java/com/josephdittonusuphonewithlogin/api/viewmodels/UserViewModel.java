@@ -21,6 +21,13 @@ public class UserViewModel extends ViewModel {
     public UserViewModel() {
         this.auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance().getReference();
+        FirebaseUser fbUser = auth.getCurrentUser();
+//                loginError.setValue(null);
+        if (fbUser == null) {
+            user.setValue(null);
+        } else {
+            user.setValue(new User(fbUser));
+        }
         this.auth.addAuthStateListener(new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
