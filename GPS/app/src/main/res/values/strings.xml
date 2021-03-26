@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GPS</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZGl0dG9uanMiLCJhIjoiY2s4M2Jwb3YxMTlsMzNsbG43Yzk0a3VuciJ9.2zKrtHTsoZnSE1p32MAgAQ</string>
 </resources>
