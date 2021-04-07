@@ -58,13 +58,17 @@ public class MainActivity extends AppCompatActivity {
         mapView.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(@NonNull MapboxMap mapboxMap) {
-                mapboxMap.setStyle(Style.MAPBOX_STREETS, new Style.OnStyleLoaded() {
+                mapboxMap.setStyle(Style.SATELLITE_STREETS, new Style.OnStyleLoaded() {
                     @Override
                     public void onStyleLoaded(@NonNull Style style) {
                         LocationManager manager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
                         if (checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                             requestPermissions(new String[] {Manifest.permission.ACCESS_FINE_LOCATION}, 1);
                         }
+
+
+                        MarkerViewManager markerViewManager = new MarkerViewManager(mapView, mapboxMap);
+
                         GeoJsonSource source = new GeoJsonSource("points",
                                 FeatureCollection.fromFeatures(new Feature[]{
                                         Feature.fromGeometry(
@@ -83,24 +87,11 @@ public class MainActivity extends AppCompatActivity {
                                 PropertyFactory.lineColor(Color.parseColor("#e55e5e"))
                         ));
 
-
-                        MarkerViewManager markerViewManager = new MarkerViewManager(mapView, mapboxMap);
                         mapboxMap.addOnMapClickListener(new MapboxMap.OnMapClickListener() {
                             @Override
                             public boolean onMapClick(@NonNull LatLng point) {
 
                                 return true;
-                            }
-                        });
-
-                        mapboxMap.addOnMapLongClickListener(new MapboxMap.OnMapLongClickListener() {
-                            @Override
-                            public boolean onMapLongClick(@NonNull LatLng point) {
-
-
-
-
-                                return false;
                             }
                         });
 
@@ -125,6 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
                             }
                         });
+
 
 
                         LocationComponentOptions options = locationComponent.getLocationComponentOptions().toBuilder()
@@ -165,11 +157,14 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onLocationChanged(@NonNull Location location) {
                                 points.add(Point.fromLngLat(location.getLongitude(), location.getLatitude()));
-                                source.setGeoJson(FeatureCollection.fromFeatures(new Feature[]{
-                                        Feature.fromGeometry(
-                                                LineString.fromLngLats(points)
+                                source.setGeoJson(
+                                        FeatureCollection.fromFeatures(new Feature[]{
+                                                        Feature.fromGeometry(
+                                                                LineString.fromLngLats(points)
+                                                        )
+                                                }
                                         )
-                                }));
+                                );
                             }
                         });
                     }
