@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/custom_launch_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CustomIcon">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4256430706819972~8145329508"/>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

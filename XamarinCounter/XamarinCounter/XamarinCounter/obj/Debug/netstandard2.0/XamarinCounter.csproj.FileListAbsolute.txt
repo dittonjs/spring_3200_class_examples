@@ -1,0 +1,14 @@
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\bin\Debug\netstandard2.0\XamarinCounter.deps.json
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\bin\Debug\netstandard2.0\XamarinCounter.dll
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\bin\Debug\netstandard2.0\ref\XamarinCounter.dll
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\bin\Debug\netstandard2.0\XamarinCounter.pdb
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\obj\Debug\netstandard2.0\XamarinCounter.csprojAssemblyReference.cache
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\obj\Debug\netstandard2.0\XamarinCounter.AssemblyInfoInputs.cache
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\obj\Debug\netstandard2.0\XamarinCounter.AssemblyInfo.cs
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\obj\Debug\netstandard2.0\XamarinCounter.csproj.CoreCompileInputs.cache
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\obj\Debug\netstandard2.0\XamlC.stamp
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\obj\Debug\netstandard2.0\XamarinCounter.dll
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\obj\Debug\netstandard2.0\ref\XamarinCounter.dll
+D:\teaching\spring_3200_class_examples\XamarinCounter\XamarinCounter\XamarinCounter\obj\Debug\netstandard2.0\XamarinCounter.pdb

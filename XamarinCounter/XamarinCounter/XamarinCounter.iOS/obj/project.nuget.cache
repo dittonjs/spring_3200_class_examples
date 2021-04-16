@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZsW5iPNgppNCBCxztpAt/FTsJzfpF/o0diKoUdn+3OJJXL99RXC1A9gMBBNx+eTqOvp55jmAgRDQK/47ChAB6A==",
+  "success": true,
+  "projectFilePath": "D:\\teaching\\spring_3200_class_examples\\XamarinCounter\\XamarinCounter\\XamarinCounter.iOS\\XamarinCounter.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
